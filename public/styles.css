@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #7159c1;
+    --secondary-color: #F7DF1E;
 }
 
 * {
@@ -128,3 +129,25 @@ header {
     font-weight: bold;
     color: var(--primary-color);
 }
+
+/*
+.details .item div:nth-child(2) span {}
+
+Esse é o caminho mais  especifico como só 
+foi usado span em um unico caso então 
+pode se usar o modelo abaixo
+*/
+
+.details .item span {
+    padding: 8px 16px;
+    background-color: var(--secondary-color);
+    border-radius: 16px;
+    color: #777;
+    margin-right: 4px;
+    margin-top: 8px;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
