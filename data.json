@@ -1,0 +1,20 @@
+{
+  "instructors": [
+    {
+      "avatar_url": "http://google.com",
+      "name": "Pedro Henrique",
+      "birth": "2020-10-22",
+      "gender": "M",
+      "services": "musculação, crosfit, boxe",
+      "created_at": 1602573945102
+    },
+    {
+      "avatar_url": "http://google.com",
+      "name": "Henrique",
+      "birth": 1602720000000,
+      "gender": "M",
+      "services": "musculação, crosfit, boxe",
+      "created_at": 1602574121791
+    }
+  ]
+}
